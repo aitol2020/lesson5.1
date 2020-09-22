@@ -5,7 +5,7 @@ public class Hero {
     private int damage;
     private String superobbility;
 
-    public Hero(int herohealt, String superobbility, int damage) {
+    public Hero(int herohealt, int damage, String superobbility) {
         this.herohealt = herohealt;
         this.damage = damage;
         this.superobbility = superobbility;
